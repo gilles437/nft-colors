@@ -113,7 +113,7 @@ class App extends Component {
             </main>
           </div>
           <hr/>
-          <div className="row text-center">
+          <div className="row text-center ">
             { this.state.colors.map((color, key) => {
               return(
                 <div key={key} className="col-md-3 mb-3">
